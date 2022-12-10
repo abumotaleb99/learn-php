@@ -15,11 +15,11 @@ if(isset($_POST['btn'])) {
     <table>
         <tr>
             <th>First Number</th>
-            <td><input type="text" name="first_number" value="<?php echo (isset($_POST['first_number'])) ? $_POST['first_number'] : 0; ?>"></td>
+            <td><input type="number" name="first_number" value="<?php echo (isset($_POST['first_number'])) ? $_POST['first_number'] : 0; ?>"></td>
         </tr>
         <tr>
             <th>Second Number</th>
-            <td><input type="text" name="second_number" value="<?php echo (isset($_POST['second_number'])) ? $_POST['second_number'] : 0; ?>"></td>
+            <td><input type="number" name="second_number" value="<?php echo (isset($_POST['second_number'])) ? $_POST['second_number'] : 0; ?>"></td>
         </tr>
         <tr>
             <th>Result</th>
