@@ -8,7 +8,8 @@
 // }
 
 
-require_once 'app/classes/CountString.php';
+// require_once 'app/classes/CountString.php';
+require_once 'vendor/autoload.php';
 use App\classes\CountString;
 
 if(isset($_POST['btn'])) {
