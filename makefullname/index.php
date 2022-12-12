@@ -26,7 +26,7 @@ if(isset($_POST['btn'])) {
         </tr>
         <tr>
             <th>Full Name</th>
-            <td><input type="text" name="full_name" value="<?php echo $result; ?>"></td>
+            <td><input type="text" value="<?php echo $result; ?>"></td>
         </tr>
         <tr>
             <th></th>
